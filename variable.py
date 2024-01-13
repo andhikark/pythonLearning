@@ -24,3 +24,15 @@ human = False
 print(type(human))
 print("are you a human? " + str(human))
 
+#type casting
+f = 5.4
+s = "11"
+i = 2
+
+f = int(f) #if u want permanently change, need to initialize again
+print(f)
+print(int(s) * 3)
+print(int(s) * i)
+
+
+
