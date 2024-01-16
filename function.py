@@ -1,3 +1,5 @@
+import math
+
 
 def hello (fname,lname, age):
     print("hello "+ fname + " " + lname)
@@ -9,5 +11,7 @@ hello("Bro","Code",21)
 def multiply(num1, num2):
     return num1 * num2
 
+
 x = multiply(10,10)
 print(x)
+print(math.ceil(abs(float(input("Enter a whole positive number: ")))))
